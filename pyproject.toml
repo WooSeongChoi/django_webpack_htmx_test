@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-webpack-htmx-example"
+version = "0.1.0"
+description = ""
+authors = ["WooSeongChoi <ddk74100@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+django-webpack-loader = "^3.1.0"
+django-htmx = "^1.17.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
